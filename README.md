@@ -9,7 +9,6 @@
 - Internet Gateway (1x per VPC)
 
 
-
 ## Order of Creation - 
 - IAM account - already present
 - VPC with config
@@ -18,6 +17,10 @@
 - Internet Gateway with Config
 - NAT Gateway with Config 
 - SSH Key Pair? - idk
+
+
+## Architecture Diagram 
+![Proposed Architecture](AWS_Setup-BasicTF.png)
 
 
 
