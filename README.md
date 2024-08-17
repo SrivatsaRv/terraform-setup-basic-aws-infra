@@ -9,11 +9,20 @@
 - Internet Gateway (1x per VPC)
 
 
-Running thoughts 
+
+## Order of Creation - 
+- IAM account - already present
+- VPC with config
+- Private Public Subnet with Config
+- EC With Config
+- Internet Gateway with Config
+- NAT Gateway with Config 
+- SSH Key Pair? - idk
+
+
+
+## Running thoughts 
 - How to install Terraform on Amazon Linux - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
-
-
-
 
 
 ## End Goal - How to Verify? 
@@ -28,3 +37,5 @@ Running thoughts
 - setup observability with node-exporter on the EC2 when they come up 
 - connect with Prometheus instance, and Grafana Cloud
 - Public dashboard with Golden Signals 
+
+
